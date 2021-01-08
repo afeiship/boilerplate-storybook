@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "storybook:start": "start-storybook -p 6006",
+    "storybook:build": "build-storybook -o docs"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@storybook/addon-actions": "^6.1.11",
